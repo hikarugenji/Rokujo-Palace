@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+	padding: 0;
+    background-image: url("../img/sue.jpg");
+}
+
+.top{
+	position: fixed;
+	width: 700px;
+	left:350px;
+
+}
+
+.top ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+.top li
+{
+float:left;
+}
+.top a:link,a:visited
+{
+display:block;
+width:120px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#ccc;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+.top a:hover,a:active
+{
+background-color:#cc0000;
+}
+
+#background, #flower,#personality,#illu{
+	width:800px;
+	margin: 40px auto;
+	font-size: 20px;
+}
